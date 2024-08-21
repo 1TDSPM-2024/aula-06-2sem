@@ -1,0 +1,29 @@
+.conainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(26, 60, 92);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(149, 231, 231);
+}
+
+.menu.li{
+    display: inline;
+}
+
+
+main{
+    display: flex;
+    width: 100vw;
+    flex-direction: center;
+    align-items: center;
+}

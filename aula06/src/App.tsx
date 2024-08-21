@@ -1,9 +1,14 @@
+import { Outlet } from "react-router-dom";
+import Menu from "./routes/Menu";
+import styles from "./App.module.css";
+
 function App() {
     return(
-        <div>
-            <h1>Componente App</h1>
-        </div>
-    );
+    <div className= {styles.container}>
+        <Menu />
+        <Outlet />
+    </div>
+);
 }
 
 export default App
