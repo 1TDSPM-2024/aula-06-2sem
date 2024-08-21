@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: rgb(117, 119, 122);
+    color:aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .nav{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+        background-color: royalblue;
+
+        &
+        a{
+            color: white;
+            font-size: 1.5em;
+            padding: 15px;
+        }
+    }
+
+    .conteudo{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        height: 70vh;
+        background-color: bisque;
+    }
+}
+
+.menu li{
+    display: inline;
+}
