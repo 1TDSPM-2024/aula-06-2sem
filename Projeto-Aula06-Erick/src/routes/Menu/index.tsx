@@ -1,7 +1,9 @@
 export default function Menu(){
     return (
-        <main>
-            <h2>Menu</h2>
-        </main>
-    )
+        <nav>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Editar Produtos</li>
+        </nav>
+    );
 }
