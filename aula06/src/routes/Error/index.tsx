@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function Error() {
     return (
         <div>
@@ -6,3 +7,15 @@ function Error() {
     );
 }
 export default Error;
+=======
+export default function Error(){
+
+    return(
+        <>
+    <h1>Erro 404 - Página não encontrada</h1>
+
+        </>
+    )
+
+}
+>>>>>>> 62bb7b5fbd2e57b3f967eca3cb5e65f77f4184cf
