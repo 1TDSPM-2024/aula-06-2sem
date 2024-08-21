@@ -1,8 +1,8 @@
 function Produtos() {
     return (
-        <section>
-            Editar Produtos
-        </section>
+        <div>
+            <h1>Produtos</h1>
+        </div>
     );
 }
 

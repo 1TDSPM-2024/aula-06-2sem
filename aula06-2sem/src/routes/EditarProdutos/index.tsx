@@ -1,4 +1,4 @@
-function EditarProdutos() {
+function EditarProduto() {
     return (
         <div>
             <h1>Editar Produtos</h1>
@@ -6,4 +6,4 @@ function EditarProdutos() {
     );
 }
 
-export default EditarProdutos
+export default EditarProduto
